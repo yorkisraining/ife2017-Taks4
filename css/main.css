@@ -1,0 +1,157 @@
+/*create by rain 2017.2.27*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #fafafa;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+	display: block;
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 240334 */
+  src: url('//at.alicdn.com/t/font_bl6tuck07wrk9.eot');
+  src: url('//at.alicdn.com/t/font_bl6tuck07wrk9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_bl6tuck07wrk9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_bl6tuck07wrk9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_bl6tuck07wrk9.svg#iconfont') format('svg');
+}
+
+.icon {
+	font-family: "iconfont";
+	font-size: 20px;
+	font-style: normal;
+	cursor: pointer;
+}
+
+.wrap {
+	width: 1200px;
+	height: 350px;
+	margin: 100px auto 0;
+	position: relative;
+}
+
+.title {
+	font-family: "微软雅黑";
+	line-height: 2em;
+	position: absolute;
+	top: 70px;
+	left: 450px;
+}
+
+.title a:hover {
+	text-decoration: underline;
+}
+
+.song-name a{
+	color: #4a4a4a;
+	font-size: 24px;
+	letter-spacing: 3px;
+}
+
+.singer a{
+	color: #979797;
+	font-size: 16px;
+}
+
+.face {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	right: 20px;
+	top: 50px;
+	animation: rounds 20s linear infinite;
+}
+
+.face-img {
+	height: 250px;
+}
+
+@keyframes rounds {
+	0% {
+		transform: rotate(0);
+	}
+	50% {
+		transform: rotate(180deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.up {
+	position: absolute;
+	width: 450px;
+	height: 50px;
+	left: 450px;
+	top: 130px;
+	color: #979797;
+	padding-top: 15px;
+}
+
+.right {
+	position: absolute;
+	right: 10px;
+}
+
+.up div {
+	display: inline-block;
+}
+
+.up .icon {
+	font-size: 16px;
+	
+	opacity: 0.8;
+}
+
+.up .icon:hover {
+	opacity: 1;
+}
+
+.pro-bar {
+	width: 450px;
+	height: 2px;
+	background: #979797;
+	opacity: 0.5;
+}
+
+.down {
+	position: absolute;
+	width: 450px;
+	height: 100px;
+	top: 200px;
+	left: 450px;
+	padding-top: 35px;
+}
+
+.down div{
+	display: inline-block;
+}
+
+.down .icon {
+	font-size: 30px;
+	color: #2c2c2c;
+	opacity: 0.8;
+}
+
+.down .icon:hover {
+	opacity: 1;
+}
+
+.down .left .icon {
+	padding-right: 20px;
+}
+
+.down .right .icon {
+	padding-left: 20px;
+}
+
