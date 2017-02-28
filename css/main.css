@@ -1,4 +1,4 @@
-/*create by rain 2017.2.27*/
+/*create by rain 2017.2.28*/
 
 * {
 	margin: 0;
@@ -117,11 +117,26 @@ a {
 	opacity: 1;
 }
 
+.progress {
+	position: relative;
+	width: 450px;
+	height: 2px;
+}
+
 .pro-bar {
 	width: 450px;
 	height: 2px;
+	position: absolute;
 	background: #979797;
 	opacity: 0.5;
+}
+
+.pro-ab {
+	position: absolute;
+	background: #46a357;
+	width: 0;
+	height: 2px;
+	opacity: .8;
 }
 
 .down {
@@ -155,3 +170,26 @@ a {
 	padding-left: 20px;
 }
 
+.voice {
+	width: 100px;
+}
+
+.voice-bar {
+	display: none;
+	width: 50px;
+    height: 2px;
+    background: #979797;
+    position: absolute;
+    top: 24px;
+    left: 68px;
+    opacity: .7;
+    cursor: pointer;
+}
+
+.voice-l {
+	width: 20px;
+    height: 2px;
+    background: #2C2C2C;
+    position: absolute;
+    left: 0;
+}

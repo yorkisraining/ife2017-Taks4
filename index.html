@@ -7,14 +7,14 @@
 	</head>
 	<body>
 		
-		<!--create by rain 2017.2.27-->
+		<!--create by rain 2017.2.28-->
 		
 		<div class="wrap">
-			<audio src="source/薛之谦 - 几个你.mp3" preload="metadata" autoplay controls ></audio>
+			<audio src="source/薛之谦 - 刚刚好.mp3" preload="metadata" autoplay></audio>
 			<!--歌名歌手名-->
 			<div class="title">
 				<div class="song-name">
-					<a href="">几个你</a>
+					<a href="">刚刚好</a>
 				</div>
 				<div class="singer">
 					<a href="">薛之谦</a>
@@ -33,12 +33,15 @@
 					<div class="left">
 						<!--剩余时间-->
 						<div class="last-time">
-							0:00
+							-0:00
 						</div>
 						<!--音量控制-->
 						<div class="voice">
 							<i class="icon voice-icon">&#xe608;</i>
-							<span class="voice-bar"></span>
+							<span class="voice-bar">
+								<span class="voice-l"></span>
+							</span>
+							
 						</div>
 					</div>
 					<div class="right">
@@ -60,7 +63,10 @@
 						</div>
 					</div>
 					<!--进度条-->
-					<div class="pro-bar"></div>
+					<div class="progress">
+						<div class="pro-bar"></div>
+						<div class="pro-ab"></div>
+					</div>
 				</div>
 				
 				<div class="down">
@@ -76,19 +82,21 @@
 					</div>
 					<div class="right">
 						<!--播放暂停-->
-						<div class="lrc">
+						<div class="play">
 							<i class="icon play-icon">&#xe644;</i>
 						</div>
 						<!--下一首-->
-						<div class="lrc">
+						<div class="next">
 							<i class="icon next-icon">&#xe6e9;</i>
 						</div>
 					</div>
 				</div>
 				
 			</div>
+		
 		</div>
 		
+		<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
 		<script type="text/javascript" src="js/audio.js" ></script>
 	</body>
 </html>
